@@ -2,7 +2,7 @@ void merge(int arr[], int l, int m, int r) {
     int n1 = m - l + 1;
     int n2 = r - m;
 
-    // Create temp arrays
+    // temp arrays
     int L[n1], R[n2];
 
     // Copy data to temp arrays L[] and R[]
